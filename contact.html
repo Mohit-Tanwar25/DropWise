@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Suggestions | DropWise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>🌊 DropWise</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="tips.html" class="nav-link">Tips</a></li>
+                <li><a href="tracker.html" class="nav-link">Tracker</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Share your ideas, suggestions, and water conservation experiences</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We'd love to hear from you! Whether you have suggestions for improving our platform, want to share your conservation success story, or need help with water-saving strategies, we're here to help.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-details">
+                                <h3>Email</h3>
+                                <p>info@DropWise.org</p>
+                                <small>We respond within 24 hours</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">📞</div>
+                            <div class="method-details">
+                                <h3>Phone</h3>
+                                <p>+91 1234567890</p>
+                                <small>Mon-Fri, 9AM-5PM EST</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">📍</div>
+                            <div class="method-details">
+                                <h3>Address</h3>
+                                <p>Dezyne E&acute;cole College<br>Ajmer</p>
+                                <small>Visit by appointment</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">🌐</div>
+                            <div class="method-details">
+                                <h3>Social Media</h3>
+                                <p>@DropWiseOrg</p>
+                                <small>Follow us for daily tips</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Suggestion Form -->
+                <div class="suggestion-form">
+                    <h2>Suggestion Box</h2>
+                    <form id="suggestionForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <select id="category" name="category" required>
+                                <option value="">Select a category</option>
+                                <option value="suggestion">General Suggestion</option>
+                                <option value="feature">Feature Request</option>
+                                <option value="bug">Bug Report</option>
+                                <option value="success-story">Success Story</option>
+                                <option value="partnership">Partnership Inquiry</option>
+                                <option value="education">Educational Content</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Brief description of your message">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Share your thoughts, suggestions, or experiences with water conservation..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    
+                    <div class="form-success" id="formSuccess" style="display: none;">
+                        <h3>Thank you for your message!</h3>
+                        <p>We've received your suggestion and will get back to you soon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>How can I submit a conservation project for your gallery?</h3>
+                    <p>Use the contact form above with the "Success Story" category. Include photos, water savings data, and project details. We love featuring inspiring conservation initiatives!</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can you help me calculate potential water savings for my home?</h3>
+                    <p>Contact us with details about your current usage and home setup. Our team can provide personalized recommendations and savings estimates.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Do you offer educational programs for schools?</h3>
+                    <p>Yes! We partner with schools to develop water conservation curricula. Contact us to discuss bringing our educational programs to your institution.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How can businesses partner with DropWise?</h3>
+                    <p>We welcome partnerships with businesses committed to water conservation. Use the "Partnership Inquiry" category to discuss collaboration opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="contact-cta">
+        <div class="container">
+            <h2>Join the Water Conservation Movement</h2>
+            <p>Every suggestion, every story, and every action matters in our mission to conserve water for future generations.</p>
+            <div class="cta-buttons">
+                <a href="tracker.html" class="btn btn-primary">Start Tracking</a>
+                <a href="tips.html" class="btn btn-primary">Learn More Tips</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🌊 DropWise</h3>
+                    <p>Dedicated to promoting water conservation and sustainable practices worldwide.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="tips.html">Conservation Tips</a></li>
+                        <li><a href="gallery.html">Projects</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="tracker.html">Usage Tracker</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DropWise. All rights reserved. Every drop counts.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
