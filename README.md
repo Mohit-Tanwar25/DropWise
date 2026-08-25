@@ -3,9 +3,12 @@
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Built in 3 Hours](https://img.shields.io/badge/⚡_Built_In-3_Hours-f59e0b?style=for-the-badge)](https://github.com/Mohit-Tanwar25/DropWise)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-> **DropWise** is a modern, responsive web application dedicated to promoting water conservation, sustainable habits, and raising awareness about global water challenges. Track your daily water footprint and learn actionable tips to make every drop count.
+> ⚡ **Built in just 3 hours!** 
+> 
+> **DropWise** is a responsive web application dedicated to promoting water conservation, sustainable habits, and raising awareness about global water challenges. Built rapidly in a 3-hour sprint, it features a complete daily water usage tracker, actionable conservation tips, and project showcases to help you make every drop count.
 
 ---
 
